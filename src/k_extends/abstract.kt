@@ -3,6 +3,7 @@ package k_extends
 // 추상 클래스 : open 키워드가 없어도 상속 가능
 abstract class Vehicle{
     // 추상 메서드 : 상속 받은 클래스에서 구현
+    // 추상메서드는 직접 객체 생성 불가
     abstract fun drive(): String
 
 }
