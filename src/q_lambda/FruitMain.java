@@ -18,6 +18,8 @@ public class FruitMain {
         // final에 가까워야 한다. (변경되는 지점이 없어야 한다)
         String targetFruitName = "사과";
         targetFruitName = "바나나";
+        // 주석을 해체하면 해당 변수를 사용할 수 없음.
+        // Variable used in lambda expression should be final or effectively final
 //        List<Fruit> filtered = filterFruits(fruits,
 //                fruit -> targetFruitName.equals(fruit.getName()));
     }
