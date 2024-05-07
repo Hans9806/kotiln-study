@@ -27,7 +27,7 @@ fun main() {
     // Int -> String
 
     // as? 연산자 : 안전한 캐스팅
-    // 만약 해당 타입으로 캐스팅잉 되지 않을 경우 ClassCastException을 발생시키는 대신
+    // 만약 해당 타입으로 캐스팅 되지 않을 경우 ClassCastException을 발생시키는 대신
     // null 을 리턴
     val safeNumStr = num as? String
     println("캐스팅결과: " + safeNumStr)
