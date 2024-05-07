@@ -26,7 +26,7 @@ fun main() {
     val str2: String= String("홍길동".toCharArray())
 
     val isEqual = str1 == str2      // 동등 비교, 문자열 내용 비교 true
-    val isSame = str1 == str2      // 동일 비교, 메모리 주소 비교 false
+    val isSame = str1 === str2      // 동일 비교, 메모리 주소 비교 false
 
     println("동등 : "+ isEqual)
     println("동일: "+ isSame)
